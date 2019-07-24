@@ -1,14 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {HashRouter} from 'react-router-dom'
+import router from './router'
+
+import {Provider} from 'react-redux'
+import store from './Redux/Store'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
+    <Provider store={store}>
+
+   <HashRouter>
+     
+  
+       {router} 
+  
+   
+  
+   </HashRouter>
+   </Provider>
   );
 }
 
