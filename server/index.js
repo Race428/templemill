@@ -1,15 +1,12 @@
 const express = require('express')
+
 require('dotenv').config()
 
 
-require("jsdom").env("", function(err, window) {
-  if (err) {
-      console.error(err);
-      return;
-  }
+
 
   var $ = require("jquery")(window);
-});
+
 
 const app = express()
 
