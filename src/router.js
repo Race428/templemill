@@ -1,6 +1,8 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import LandingPage from './components/pages/landingPage'
+import Work from './components/pages/work'
+
 // import AdminLogin from './Components/Pages/adminLogin'
 // import AdminLanding from './Components/Pages/adminLanding'
 // import Podcasts from './Components/Pages/podcasts'
@@ -19,6 +21,8 @@ import LandingPage from './components/pages/landingPage'
 export default (
     <Switch>
       <Route exact path ='/' component={LandingPage} />
+      <Route  path ='/work' component={Work} />
+
       {/* <Route path='/login' component={AdminLogin} /> */}
       {/* <Route path='/adminLanding' component={AdminLanding} /> */}
       {/* <Route path='/podcasts' component={Podcasts} />

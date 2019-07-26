@@ -50,7 +50,7 @@ class LandingPage extends Component {
 
                 <div id='showcase'>
                     <header className='nav-container'>
-                        <Nav />
+                        <Nav props={this.props}/>
                     </header>
 
 

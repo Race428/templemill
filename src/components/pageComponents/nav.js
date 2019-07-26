@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
+import $ from 'jquery'
 
 // import Logo from '../Images/logo.PNG'
 
@@ -9,7 +10,16 @@ class Nav extends Component {
 
     componentDidMount() {
 
+var location = this.props.props.location.pathname
 
+
+if(location === '/'){
+    $('#home').attr('id','active-link')
+} 
+
+if(location === '/work'){
+    $('#work').attr('id','active-link')
+} 
 
     }
     render() {
@@ -26,24 +36,24 @@ class Nav extends Component {
 
 
                         <ul>
-                                <li>
-                            <Link to='/'>
+                                <li >
+                            <Link  id='home' to='/'>
 
                                     HOME
                             </Link>
 
                             </li>
 
-                                <li>
-                            <Link to='/'>
+                                <li >
+                            <Link  id='work' to='/work'>
 
                                     OUR WORK
                             </Link>
 
                             </li>
 
-                                <li>
-                            <Link to='/'>
+                                <li >
+                            <Link  id='about' to='/'>
 
 
                                     ABOUT
@@ -51,8 +61,8 @@ class Nav extends Component {
 
                             </li>
 
-                                <li>
-                            <Link to='/'>
+                                <li >
+                            <Link  id='get-started' to='/'>
 
                                     GET STARTED
                             </Link>
