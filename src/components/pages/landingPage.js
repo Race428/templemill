@@ -124,7 +124,7 @@ class LandingPage extends Component {
                     </div>
                     <div id='client-container'>
                         <div className='client-image-container'>
-                            <img id='client-image' src="https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/t/5baa6ae024a69467b83dd749/1537914401823/IMG_9196.jpg?format=750w" alt='victoria-justice' />
+                            <img id='client-image' src="https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/t/5baa6ae024a69467b83dd749/1537914401823/IMG_9196.jpg?" alt='victoria-justice' />
                         </div>
                         <div id='client-image-text-container'>
 
@@ -141,7 +141,8 @@ class LandingPage extends Component {
                     </div>
                     <div id='client-container'>
                         <div className='client-image-container'>
-                            <img id='client-image' src="https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/t/5baa707953450a8566cf9669/1537914480982/IMG_9198.jpg?format=1000w
+                            <img id='client-image' src="https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/t/5baa707953450a8566cf9669/1537914480982/IMG_9198.jpg?
+                            
 " alt='Maddy Grace' />
                         </div>
                         <div id='client-image-text-container'>
@@ -157,9 +158,67 @@ class LandingPage extends Component {
 
                         </div>
                     </div>
+                    <div id='client-container'>
+                        <div className='client-image-container'>
+                            <img id='client-image' src="https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/t/5baa6e894785d3a28629acfe/1537914571157/DSC05339+2.jpg?format=1000w
+                            
+" alt='Maddy Grace' />
+                        </div>
+                        <div id='client-image-text-container'>
+
+                            <div id='client-text'>
+                                <h2>“Templemill Productions has been by far the best video production company I’ve ever hired. They’re fast, reliable and can tell stories better than anyone I know.”</h2>
+                                <br />
+                                <h2>-Ulyses Osuna</h2>
+                                <br />
+                                <h2>CEO of Influencer Press</h2>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id='client-container'>
+                        <div className='client-image-container'>
+                            <img id='client-image' src="https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/t/5bbe77544785d3666838c8f2/1539209147909/scott.jpeg?format=1000w
+                            
+" alt='Maddy Grace' />
+                        </div>
+                        <div id='client-image-text-container'>
+
+                            <div id='client-text'>
+                                <h2>“I have been a Celebrity Chef for five years. I've worked with some of the greatest talent on the planet, but the guys at Templemill are at the top of my list! They are young, passionate about what they are doing, talented, energetic, and have mad skills. It is my honor to recommend them to any and all brands, large or small."
+
+</h2>
+                                <br />
+                                <h2>-Chef Bryan-David Scott</h2>
+                                <br />
+                                <h2>Celebrity Chef</h2>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id='horizontal-line'></div>
+
+                   <div id='bottom-text'>
+                    <h2>An Eye For Originality</h2>
+                    <br/>
+                    <p>As a team of creatives, we are dedicated to displaying the excellence in our clients through video and distribution. While the majority of our work falls under the umbrella of lifestyle brands, thought leaders and startups, our services are applicable to any industry. Our team has shot in nearly all environments from sandy beaches to the tops of skyscrapers.</p>
+                    
+                    <div id='lets-work-button'>
+                        Let's Work
+                    </div>
+                    </div>
+
+
+
 
                 </div>
             </>
+
+
 
 
 

@@ -43,7 +43,7 @@ html {
 /* universal  */
 
 #horizontal-line {
-    width: 90vw;
+    width: 70vw;
     height: 1px;
     background-color: black;
     margin: 10vh auto 10vh auto;
@@ -217,30 +217,43 @@ link {
 
 #client-container:nth-child(even) {
     width: 70vw;
-    height: 35vw;
+    /* height: 35vw; */
     /* background-color: grey; */
-    margin: auto;
+    margin: 10px auto 10px auto;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    
 }
 #client-container:nth-child(odd) {
     width: 70vw;
-    height: 35vw;
+    /* height: 35vw; */
     /* background-color: grey; */
+    margin: 10px auto 10px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+/* #client-container:nth-child(odd) {
+    width: 70vw;
+    height: 35vw;
+
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-}
+} */
 
 .client-image-container {
     height: 100%;
-    width: 40%;
+    width: 49%;
     /* float: left; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    /* margin: 50px; */
 }
 
 #client-image {
@@ -258,7 +271,7 @@ link {
 #client-text {
     font-family: Rockwell;
     font-weight: bold;
-    font-size: .7em;
+    font-size: .5em;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -270,3 +283,54 @@ link {
     /* background-color: green; */
 }
 
+
+
+/* bottom text  */
+
+#bottom-text{
+    text-align: center;
+    margin: 10vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   margin: 2em auto 2em auto; 
+
+}
+
+#bottom-text h2{
+
+}
+
+#bottom-text p{
+    font-size: .5em;
+    line-height: 2em;
+    
+}
+
+#lets-work-button{
+
+    width: 7vw;
+    height: 5vh;
+    border-radius: 60px;
+    border: 2px solid black;
+    color: black;
+    font-size: .4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 4em;
+}
+
+
+#lets-work-button:hover{
+    background-color: black;
+    color:white;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    transition-property: background-color, color;
+    transition-duration: 0.1s, 0.1s;
+    transition-timing-function: linear, linear;
+    transition-delay: 0s, 0s;
+}
