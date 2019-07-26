@@ -5,7 +5,7 @@ require('dotenv').config()
 
 
 
-  var $ = require("jquery")(window);
+
 
 
 const app = express()
