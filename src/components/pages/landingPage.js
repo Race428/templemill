@@ -116,8 +116,50 @@ class LandingPage extends Component {
 
                 <div id='horizontal-line'></div>
 
-            </>
 
+                <div id='clients'>
+
+                    <div id='paragraph-container'>
+                        <p>A Few Words From Our Clients.</p>
+                    </div>
+                    <div id='client-container'>
+                        <div className='client-image-container'>
+                            <img id='client-image' src="https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/t/5baa6ae024a69467b83dd749/1537914401823/IMG_9196.jpg?format=750w" alt='victoria-justice' />
+                        </div>
+                        <div id='client-image-text-container'>
+
+                            <div id='client-text'>
+                                <h2>“I loved working with the guys at Templemill. They have great energy and they made me feel really comfortable. We got great shots and I look forward to working with them again.”</h2>
+                                <br />
+                                <h2>-Victoria Justice</h2>
+                                <br />
+                                <h2>For True Religion</h2>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id='client-container'>
+                        <div className='client-image-container'>
+                            <img id='client-image' src="https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/t/5baa707953450a8566cf9669/1537914480982/IMG_9198.jpg?format=1000w
+" alt='Maddy Grace' />
+                        </div>
+                        <div id='client-image-text-container'>
+
+                            <div id='client-text'>
+                                <h2>“Every time I shoot with Templemill Productions, it’s so fun and stress free. They know what they’re good at and they nail it every time. Love working with the guys over there and can’t wait for more shoots in the future!”</h2>
+                                <br />
+                                <h2>--Maddy Grace</h2>
+                                <br />
+                                <h2>For Revolve Magazine</h2>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </>
 
 
 
