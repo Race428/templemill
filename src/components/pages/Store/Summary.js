@@ -3,9 +3,12 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import Nav from '../../pageComponents/nav'
-
-
+import axios from 'axios'
+import stepStyles from '../../../css/CSS/stepOne.module.css'
+import '../../../css/CSS/store.css'
 import style from '../../../css/CSS/summary.module.css'
+import PageLocation from '../Store/StoreComponents/pageLocation'
+
 
 
 function Summary(props) {
@@ -133,12 +136,24 @@ function Summary(props) {
 
 
 
+const submit = function(){
+    props.history.push('/')
+}
+
+   
+    
+
+
 
     return <div className={style.pageView}>
         
  <header className='nav-container'>
                         <Nav props={props} />
                     </header>
+                    <div className={stepStyles.pageLocation}>
+                        <PageLocation />
+
+                    </div>
         <div className={style.summaryContainer}>
          
             {/* <div className={style.logo}>
@@ -169,11 +184,16 @@ function Summary(props) {
 
 
            
-
+ <div  onClick={submit}id='lets-work-button'>
+                        Let's Work
+                    </div>
 
             </div>
+           
+                   
         </div>
 
+      
 
 
 
