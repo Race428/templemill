@@ -53,7 +53,7 @@ if(location === '/work'){
                             </li>
 
                                 <li >
-                            <Link  id='about' to='/'>
+                            <Link  id='about' to='/about'>
 
 
                                     ABOUT

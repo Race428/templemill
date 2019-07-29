@@ -2,7 +2,7 @@ import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import LandingPage from './components/pages/landingPage'
 import Work from './components/pages/work'
-
+import About from './components/pages/about'
 // import AdminLogin from './Components/Pages/adminLogin'
 // import AdminLanding from './Components/Pages/adminLanding'
 // import Podcasts from './Components/Pages/podcasts'
@@ -22,6 +22,8 @@ export default (
     <Switch>
       <Route exact path ='/' component={LandingPage} />
       <Route  path ='/work' component={Work} />
+      <Route  path ='/about' component={About} />
+
 
       {/* <Route path='/login' component={AdminLogin} /> */}
       {/* <Route path='/adminLanding' component={AdminLanding} /> */}

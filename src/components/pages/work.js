@@ -50,7 +50,7 @@ class Work extends Component {
         })
 
         $('#album-iframe-container-hidden').attr('id', 'album-iframe-container-shown')
-
+$('button-iframe').fadeIn('fast')
 
         // var iframeUrl = ['hi', '34']
 
@@ -160,7 +160,10 @@ class Work extends Component {
 
 
                         <div id='horizontal-line-2'></div>
-
+                        <div id='lets-work-button'>
+                        Let's Work
+                    </div>
+               
 
                     </div>
 
@@ -188,7 +191,7 @@ class Work extends Component {
                     </div>
 
 
-
+                   
                 </div>
 
 
