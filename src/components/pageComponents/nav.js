@@ -20,6 +20,9 @@ if(location === '/'){
 if(location === '/work'){
     $('#work').attr('id','active-link')
 } 
+if(location === '/about'){
+    $('#about').attr('id','active-link')
+} 
 
     }
     render() {
