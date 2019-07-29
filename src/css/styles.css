@@ -49,6 +49,14 @@ html {
     margin: 10vh auto 10vh auto;
 }
 
+
+#horizontal-line-2{
+    width: 90vw;
+    height: 1px;
+    background-color: black;
+    margin: 10vh auto 10vh auto;
+}
+
 /* navigation  */
 
 #active-link{
@@ -218,6 +226,7 @@ link {
     position: relative;
     opacity: 0;
     z-index: 3;
+    display: none;
 }
 
 #iframe-shown {
@@ -375,3 +384,120 @@ link {
     text-align: center;
     margin: 2em;
 }
+
+
+#video-album{
+    width: 100vw;
+/* height: 60vh; */
+display: flex;
+margin: auto;
+background-color: palevioletred;
+/* overflow: hidden; */
+/* justify-content: space-around; */
+
+
+
+/* grid-column-end: auto; *
+margin: auto;
+grid-template-columns: auto auto auto auto;
+
+/* background-color: yellow;s */
+/* padding: 1em; */
+}
+
+
+
+
+
+
+#album-photo-cover-button-container{
+
+    background-color: green;
+    /* height: 90%;; */
+   width: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+
+
+
+}
+
+#album-cover-image{
+width:100%;
+/* height: auto; */
+/* margin: auto; */
+/* position: absolute; */
+background-color: blue;
+margin-top: 52.25%;
+
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 52.25%;
+
+
+
+
+
+/* z-index: 10; */
+
+
+}
+
+
+#album-iframe{
+
+    /* width: 10vw; */
+    height: auto;
+  
+}
+
+
+.album-button-video{
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    height:22vh;
+    width: 22vw;
+    /* width: 90vw; */
+    /* overflow: hidden; */
+    /* margin: auto; */
+    /* background-color: yellow; */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.button-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iframe-hidden {
+    position: relative;
+    opacity: 0;
+    z-index: 3;
+}
+
+#iframe-shown {
+    opacity: 1;
+    display: inline;
+} */
+
+
+
+
+
