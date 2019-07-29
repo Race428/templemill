@@ -15,14 +15,22 @@ var location = this.props.props.location.pathname
 
 if(location === '/'){
     $('#home').attr('id','active-link')
-} 
+} else { 
+    if(location === '/work'){
+        $('#work').attr('id','active-link')
+    } else {
+        if(location === '/about'){
+            $('#about').attr('id','active-link')
+        }else { 
+            $('#get-started').attr('id','active-link')
 
-if(location === '/work'){
-    $('#work').attr('id','active-link')
-} 
-if(location === '/about'){
-    $('#about').attr('id','active-link')
-} 
+        }
+    }
+}
+
+
+
+
 
     }
     render() {
@@ -65,7 +73,7 @@ if(location === '/about'){
                             </li>
 
                                 <li >
-                            <Link  id='get-started' to='/'>
+                            <Link  id='get-started' to='/shop/select-package'>
 
                                     GET STARTED
                             </Link>
