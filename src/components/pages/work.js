@@ -16,7 +16,13 @@ import Iframe from 'react-iframe'
 
 class Work extends Component {
 
+constructor(){
+    super()
 
+    this.state={
+        url:''
+    }
+}
 
 
     componentDidMount() {
@@ -30,12 +36,17 @@ class Work extends Component {
 
 
 
+
+
     iframePlay = () => {
 
+        var iframeUrl = ['hi','34']
 
-        $('#album-cover-image, #play-icon').fadeOut('fast')
-        $('#iframe-hidden').attr('id', 'iframe-shown')
-        $('#album-iframe-hidden').attr('id', 'iframe-shown')
+        $('div').on('click',function(){
+            console.log(
+            $().html()
+            )
+        })
 
 
 
@@ -62,7 +73,7 @@ class Work extends Component {
 
                         <div id='video-album'>
 
-                            <div id='album-photo-cover-button-container'>
+                            <div className='album-photo-cover-button-container'id='album-video-1'>
 
                                 <div className='album-button-video' onClick={this.iframePlay}>
                                     <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5b9830dc4fa51ac1f46d133d/5b983175562fa7cc6713eb6b/1537900582714/?format=500w' alt='pic' />
@@ -83,7 +94,7 @@ class Work extends Component {
 
                             </div>
 
-                            <div id='album-photo-cover-button-container'>
+                            <div className='album-photo-cover-button-container'id='album-video-2'>
 
                                 <div className='album-button-video' onClick={this.iframePlay}>
                                     <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5b9830dc4fa51ac1f46d133d/5b9831a640ec9a22e63fcb09/1537900386706/?format=500w' alt='pic' />
@@ -103,7 +114,7 @@ class Work extends Component {
                                 <p id='album-title'>The Mercedes-Benz G-Class G 500 4x4² | Platinum Motors</p> 
                             </div>
 
-                            <div id='album-photo-cover-button-container'>
+                            <div className='album-photo-cover-button-container'id='album-video-3'>
 
                                 <div className='album-button-video' onClick={this.iframePlay}>
                                     <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5b9830dc4fa51ac1f46d133d/5baa734b1905f4ea7000fb62/1537900299422/?format=500w' alt='pic' />
@@ -124,7 +135,7 @@ class Work extends Component {
                             </div>
 
 
-                            <div id='album-photo-cover-button-container'>
+                            <div className='album-photo-cover-button-container'id='album-video-4'>
 
                                 <div className='album-button-video' onClick={this.iframePlay}>
                                     <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5b9830dc4fa51ac1f46d133d/5baa770cec212dabb7c2059c/1537900320472/?format=500w' alt='pic' />
