@@ -35,6 +35,8 @@ class Work extends Component {
 
         $('#album-cover-image, #play-icon').fadeOut('fast')
         $('#iframe-hidden').attr('id', 'iframe-shown')
+        $('#album-iframe-hidden').attr('id', 'iframe-shown')
+
 
 
 
@@ -63,9 +65,9 @@ class Work extends Component {
                             <div id='album-photo-cover-button-container'>
 
                                 <div className='album-button-video' onClick={this.iframePlay}>
-                                    <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5ba2fedf4ae237797f72ba56/5ba3017f0ebbe87a884fdebc/1537899852197/SizzleTHumbnail.JPG?format=2500w' alt='pic' />
+                                    <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5b9830dc4fa51ac1f46d133d/5b983175562fa7cc6713eb6b/1537900582714/?format=500w' alt='pic' />
                                     <img id='play-icon' src='https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c4f7.png' alt='play-icon' />
-                                    <div id="iframe-hidden"
+                                    <div id="album-iframe-hidden"
                                         className="album-iframe" >
                                         <Iframe url="https://player.vimeo.com/video/289365725?autoplay=1&loop=1&autopause=0"
 
@@ -77,14 +79,16 @@ class Work extends Component {
 
 
                                 </div>
+                                <p id='album-title'>Ulyses Osuna On Personal Brandings</p> 
+
                             </div>
 
                             <div id='album-photo-cover-button-container'>
 
                                 <div className='album-button-video' onClick={this.iframePlay}>
-                                    <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5ba2fedf4ae237797f72ba56/5ba3017f0ebbe87a884fdebc/1537899852197/SizzleTHumbnail.JPG?format=2500w' alt='pic' />
+                                    <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5b9830dc4fa51ac1f46d133d/5b9831a640ec9a22e63fcb09/1537900386706/?format=500w' alt='pic' />
                                     <img id='play-icon' src='https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c4f7.png' alt='play-icon' />
-                                    <div id="iframe-hidden"
+                                    <div id="album-iframe-hidden"
                                         className="album-iframe" >
                                         <Iframe url="https://player.vimeo.com/video/289365725?autoplay=1&loop=1&autopause=0"
 
@@ -96,14 +100,15 @@ class Work extends Component {
 
 
                                 </div>
+                                <p id='album-title'>The Mercedes-Benz G-Class G 500 4x4² | Platinum Motors</p> 
                             </div>
 
                             <div id='album-photo-cover-button-container'>
 
                                 <div className='album-button-video' onClick={this.iframePlay}>
-                                    <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5ba2fedf4ae237797f72ba56/5ba3017f0ebbe87a884fdebc/1537899852197/SizzleTHumbnail.JPG?format=2500w' alt='pic' />
+                                    <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5b9830dc4fa51ac1f46d133d/5baa734b1905f4ea7000fb62/1537900299422/?format=500w' alt='pic' />
                                     <img id='play-icon' src='https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c4f7.png' alt='play-icon' />
-                                    <div id="iframe-hidden"
+                                    <div id="album-iframe-hidden"
                                         className="album-iframe" >
                                         <Iframe url="https://player.vimeo.com/video/289365725?autoplay=1&loop=1&autopause=0"
 
@@ -115,15 +120,16 @@ class Work extends Component {
 
 
                                 </div>
+                                <p id='album-title'>Chef Bryan David Scott - NYC Tour</p> 
                             </div>
 
 
                             <div id='album-photo-cover-button-container'>
 
                                 <div className='album-button-video' onClick={this.iframePlay}>
-                                    <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5ba2fedf4ae237797f72ba56/5ba3017f0ebbe87a884fdebc/1537899852197/SizzleTHumbnail.JPG?format=2500w' alt='pic' />
+                                    <img id='album-cover-image' src='https://static1.squarespace.com/static/5aa301a9b27e39ca4eddba98/5b9830dc4fa51ac1f46d133d/5baa770cec212dabb7c2059c/1537900320472/?format=500w' alt='pic' />
                                     <img id='play-icon' src='https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c4f7.png' alt='play-icon' />
-                                    <div id="iframe-hidden"
+                                    <div id="album-iframe-hidden"
                                         className="album-iframe" >
                                         <Iframe url="https://player.vimeo.com/video/289365725?autoplay=1&loop=1&autopause=0"
 
@@ -135,6 +141,7 @@ class Work extends Component {
 
 
                                 </div>
+                                <p id='album-title'>Ulyses Osuna Good Morning La La Land</p> 
                             </div>
 
 

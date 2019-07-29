@@ -375,7 +375,7 @@ link {
 #work{
     height: 75vh; 
     width: 100vw;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 #work h2{
@@ -387,11 +387,11 @@ link {
 
 
 #video-album{
-    width: 100vw;
+    width: 90vw;
 /* height: 60vh; */
 display: flex;
 margin: auto;
-background-color: palevioletred;
+/* background-color: palevioletred; */
 /* overflow: hidden; */
 /* justify-content: space-around; */
 
@@ -412,31 +412,47 @@ grid-template-columns: auto auto auto auto;
 
 #album-photo-cover-button-container{
 
-    background-color: green;
+    /* background-color: green; */
     /* height: 90%;; */
    width: 25%;
    display: flex;
-   justify-content: center;
+   /* justify-content: center; */
    align-items: center;
-   margin: auto;
+   /* margin: auto; */
+   flex-direction: column;
 
 
 
 }
+
+#album-title{
+    font-family: Rockwell;
+    width: 100%;
+    font-size: .7vw;
+    /* color: blue; */
+
+    /* font-weight: bold; */
+    /* position:absolute; */
+    padding: 0; 
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 #album-cover-image{
 width:100%;
 /* height: auto; */
 /* margin: auto; */
 /* position: absolute; */
-background-color: blue;
-margin-top: 52.25%;
+/* background-color: blue; */
+padding-top: 52.25%;
 
 overflow: hidden;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-bottom: 52.25%;
+padding-bottom: 52.25%;
 
 
 
@@ -464,13 +480,19 @@ margin-bottom: 52.25%;
     height:22vh;
     width: 22vw;
     /* width: 90vw; */
-    /* overflow: hidden; */
+    overflow: hidden;
     /* margin: auto; */
     /* background-color: yellow; */
 }
 
 
 
+#album-iframe-hidden {
+    position: relative;
+    opacity: 0;
+    z-index: 3;
+    display: none;
+}
 
 
 
