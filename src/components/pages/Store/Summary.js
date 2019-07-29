@@ -2,6 +2,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
+import Nav from '../../pageComponents/nav'
 
 
 import style from '../../../css/CSS/summary.module.css'
@@ -134,12 +135,15 @@ function Summary(props) {
 
 
     return <div className={style.pageView}>
-
+        
+ <header className='nav-container'>
+                        <Nav props={props} />
+                    </header>
         <div className={style.summaryContainer}>
          
-            <div className={style.logo}>
+            {/* <div className={style.logo}>
                 <img src ='https://s3-us-west-1.amazonaws.com/achesonco/BlackConnecting.png' alt ='logo'/>
-            </div>
+            </div> */}
             <h1 className={style.title}>Package Summary</h1>
             <div className={style.container}> 
            

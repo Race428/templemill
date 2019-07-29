@@ -8,6 +8,7 @@ import { withRouter } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import PageLocation from '../Store/StoreComponents/pageLocation'
 
+import Nav from '../../pageComponents/nav'
 
 
 
@@ -190,6 +191,9 @@ class Step4 extends Component {
         return (
             <>
                 <div className={style.pageView}>
+                <header className='nav-container'>
+                        <Nav props={this.props} />
+                    </header>
                     <div className={style.pageLocation}>
                     <PageLocation />
 
@@ -253,7 +257,7 @@ class Step4 extends Component {
 
                             </div>
 
-                            <div className={style.optionDescription}>
+                            <div className={style.optionDescription2}>
 
                                 <h4>Select Your Music</h4>
 
@@ -281,7 +285,7 @@ class Step4 extends Component {
 
                         </div>
                     </div>
-                    <div className={style.pageLocation}>
+                    <div className={style.bottomBar}>
                         <PackageDisplay />
 
                     </div>

@@ -7,6 +7,7 @@ import { updateDistributionSelection } from '../../../Redux/Reducer'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import PageLocation from '../Store/StoreComponents/pageLocation'
+import Nav from '../../pageComponents/nav'
 
 // import { Link } from 'react-router-dom'
 
@@ -211,6 +212,9 @@ class Step6 extends Component {
         return (
             <>
                 <div className={style.pageView}>
+                <header className='nav-container'>
+                        <Nav props={this.props} />
+                    </header>
                     <div className={style.pageLocation}>
                         <PageLocation />
 
@@ -342,7 +346,7 @@ class Step6 extends Component {
 
                         </div>
                     </div>
-                    <div className={style.pageLocation}>
+                    <div className={style.bottomBar}>
                         <PackageDisplay />
 
                     </div>

@@ -7,8 +7,10 @@ import { updateRatioSelection } from '../../../Redux/Reducer'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+
 import PageLocation from '../Store/StoreComponents/pageLocation'
 
+import Nav from '../../pageComponents/nav'
 
 
 //add redux to update state with each new selection through the process. 
@@ -38,13 +40,13 @@ class Step3 extends Component {
 
 
         }
-        else { 
+        else {
             this.setState({
-                option1:'selected',
-                selected:'option1'
+                option1: 'selected',
+                selected: 'option1'
             })
         }
-     
+
 
     }
 
@@ -70,7 +72,7 @@ class Step3 extends Component {
             option3: 'option3',
             selected: 'option2'
         })
-    
+
 
     }
 
@@ -94,7 +96,7 @@ class Step3 extends Component {
 
 
 
-   
+
 
 
 
@@ -105,6 +107,9 @@ class Step3 extends Component {
         return (
             <>
                 <div className={style.pageView}>
+                    <header className='nav-container'>
+                        <Nav props={this.props} />
+                    </header>
                     <div className={style.pageLocation}>
                         <PageLocation />
 
@@ -170,14 +175,14 @@ class Step3 extends Component {
                             <div className={style.optionDescription}>
 
 
-                            
+
                             </div>
 
 
 
                         </div>
                     </div>
-                    <div className={style.pageLocation}>
+                    <div className={style.bottomBar}>
                         <PackageDisplay />
 
                     </div>

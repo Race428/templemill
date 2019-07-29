@@ -2,17 +2,34 @@
     /* background-color: grey; */
     height: 50vh;
     width: 100vw;
-    /* overflow: hidden; */
-    /* margin-top: 10vh; */
+
+  
 
 }
 
 .pageLocation {
     width: 100%;
     height: 10vh;
+    position: relative;
    
     /* background-color: red; */
 }
+
+
+.bottomBar{
+
+
+    width: 100%;
+    height: 15vh;
+    /* position: relative; */
+    /* background-color: red; */
+   
+
+
+
+}
+
+
 
 .selections {
     display: flex;
@@ -105,11 +122,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     /* margin: 2em; */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
+.optionDescription2 {
+    height: 50%;
+    width: 100%;
+
+    /* border-top: 1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 2em; */
+    /* background-color: blue; */
+}
 
 .optionDescription h4{
    
@@ -117,6 +146,7 @@
         font-weight: bold;
         border-bottom: 1px solid grey;
         padding-bottom: 5px;
+        transition: .2s;
         
     
 }

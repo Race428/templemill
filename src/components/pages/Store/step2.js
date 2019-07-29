@@ -190,7 +190,7 @@ class Step2 extends Component {
 
                         </div>
                     </div>
-                    <div className={style.pageLocation}>
+                    <div className={style.bottomBar}>
                         <PackageDisplay />
 
                     </div>

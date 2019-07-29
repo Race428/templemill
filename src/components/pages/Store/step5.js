@@ -8,6 +8,7 @@ import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import PageLocation from '../Store/StoreComponents/pageLocation'
 
+import Nav from '../../pageComponents/nav'
 
 
 //add redux to update state with each new selection through the process. 
@@ -87,6 +88,9 @@ class Step5 extends Component {
         return (
             <>
                 <div className={style.pageView}>
+                <header className='nav-container'>
+                        <Nav props={this.props} />
+                    </header>
                     <div className={style.pageLocation}>
                         <PageLocation />
 
@@ -104,10 +108,11 @@ class Step5 extends Component {
 
 
                     </div>
-                    <div className={style.pageLocation}>
+                    <div className={style.bottomBar}>
                         <PackageDisplay />
 
                     </div>
+                    
                 </div>
             </>
         )
