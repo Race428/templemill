@@ -533,6 +533,7 @@ padding-top: 50px;
     /* background-color: green; */
     display: flex;
     flex-direction: column;
+    margin-bottom: 5em;
     /* height: 100vh; */
 /* overflow-wrap: break-word;  */
     
@@ -546,6 +547,7 @@ width: 100%;
 .about-founder-text h2{
     font-size: .3em;
     /* width: 40svw;; */
+    line-height: 1.3em;
     
 
 
