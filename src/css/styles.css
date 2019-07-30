@@ -104,7 +104,6 @@ nav ul {
 
 nav a {
     color: black;
-    
 }
 
 li {
@@ -496,97 +495,73 @@ link {
     margin: auto;
 }
 
-
-
-
-.about-image{
+.about-image {
     width: 100%;
     /* height: 100.923%; */
-/* height: auto; */
-display: block;
-object-fit: cover;
-
+    /* height: auto; */
+    display: block;
+    object-fit: cover;
 }
 
-
-#mikey-truman{
-/* display: flex; */
-/* height: 200vh; */
-padding-top: 50px;
- width: 90vw;
- margin: auto;
- display: flex;
- justify-content: center;
-
+#mikey-truman {
+    /* display: flex; */
+    /* height: 200vh; */
+    padding-top: 50px;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
-.about-founder-text{
+.about-founder-text {
     /* word-wrap: break-word; */
     margin-top: 2em;
-    width: 100%; 
-
+    width: 100%;
     /* background-color: green; */
     display: flex;
     flex-direction: column;
     margin-bottom: 5em;
     /* height: 100vh; */
-/* overflow-wrap: break-word;  */
-    
+    /* overflow-wrap: break-word;  */
+}
 
+.about-founder-text h1 {
+    font-size: .3em;
+    width: 100%;
+    /* word-wrap: break-word; */
 }
-.about-founder-text h1{
-font-size: .3em;
-width: 100%;
-/* word-wrap: break-word; */
-}
-.about-founder-text h2{
+
+.about-founder-text h2 {
     font-size: .3em;
     /* width: 40svw;; */
     line-height: 1.3em;
-    
-
-
 }
 
-
-#mikey{
-   display: flex; 
-   width: 49vw;
-   flex-direction: column;
-   margin: auto;
+#mikey {
+    display: flex;
+    width: 49vw;
+    flex-direction: column;
+    margin: auto;
     align-items: center;
-
- 
-/* background-color: yellow; */
-/* overflow-wrap: break-word;  */
-/* overflow: hidden; */
-
-
-/* word-wrap: wrap; */
-
-
-width: 49%;
+    /* background-color: yellow; */
+    /* overflow-wrap: break-word;  */
+    /* overflow: hidden; */
+    /* word-wrap: wrap; */
+    width: 49%;
 }
 
-#truman{
-    
-
-float: right;
-width: 49%;
-display: flex; 
-flex-direction: column;
-align-items: center;
-/* background-color: blue; */
-word-wrap: normal;
-/* margin: auto; */
-
-
+#truman {
+    float: right;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+    word-wrap: normal;
+    /* margin: auto; */
 }
-
-
 
 /* store  */
-
 
 .option1 {
     width: 70%;
@@ -668,8 +643,6 @@ word-wrap: normal;
     /* -webkit-transition: all .5s ease-in-out; */
 }
 
-
-
 .selectedoption4 {
     width: 70%;
     height: 2.5em;
@@ -686,4 +659,163 @@ word-wrap: normal;
 .seletedoption4:hover {
     border-color: #007fff;
     box-shadow: 0 0 10px 2px #007fff;
+}
+
+/* Login  */
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    justify-content: center;
+    align-items: center;
+}
+
+.view input {
+    margin: 10px;
+    width: 30%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+}
+
+.view button {
+    height: 50px;
+    width: 30%;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(48, 105, 240);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.view button:hover {
+    background-color: rgb(38, 77, 170);
+}
+
+.view img {
+    height: 100px;
+    width: auto;
+}
+
+
+
+.pageView{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+   }
+   
+   
+   .dashboard { 
+      height: 60%;
+      width: 80%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: auto;
+   
+      
+   
+   }
+   
+   
+   .dashHead{
+   width: 80%;
+   height: 50px;
+   background-color: rgb(212, 212, 212);
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   vertical-align: 50;
+   font-size: .7em;
+   position: relative;
+   
+   
+   
+   }
+   
+   .dashHead h2 { 
+      padding-left: 5px;
+      
+      color: black;
+   }
+   
+   .podcastContainer{
+
+   
+      width: 90vw;
+      height: 70vh;
+      background-color: blue;
+      margin-top: 50px;
+      padding-top: 10px;
+   }
+   
+   .podcastContainer p {
+      color: black;
+      margin: 0;
+      padding-left: 5px;
+      padding-bottom: 5px;
+   }
+   .dashPod{
+      width: 100%;
+      height: 30px;
+      color: black;
+      border-top:solid .1px black;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* margin-top: 1px; */
+   
+    
+   
+   }
+   
+   .dashPod h3{
+      color: rgb(87, 87, 87);
+      font-size: .9em;
+      font-weight: 60px;
+      padding-left: 5px;
+   
+   
+   }
+   
+   
+   .deletePodcast{
+      height: 10px;
+      width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      margin-right: 5px;
+   
+   }
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    .login {
+        width: 100%;
+    }
+    .view input {
+        width: 50%;
+    }
 }

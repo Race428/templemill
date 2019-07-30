@@ -1,0 +1,1 @@
+select * from podcasts order by date asc
